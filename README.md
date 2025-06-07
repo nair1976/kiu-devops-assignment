@@ -21,8 +21,21 @@ Este repositorio contiene una implementación simplificada del desafío DevOps s
 
 ## Despliegue
 
-### 1. Infraestructura (Terraform)
+### 1. Infraestructura (Terraform), Esto crea el clúster AKS en Azure y genera un archivo kubeconfig que permite conectarse al clúster con kubectl
+
 ```bash
 cd terraform
 terraform init
 terraform apply
+
+### 2. Conecta el cluster con kubectl y verfica la conexión 
+
+export KUBECONFIG=./kubeconfig
+kubectl get nodes
+
+### 3. Aplica los yaml, con los manifiestos de Kubernetes
+
+cd ../k8s
+kubectl apply -f .
+
+
