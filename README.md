@@ -4,7 +4,7 @@ Desafío técnico DevOps para Kiu
 
 ##  Objetivo
 
-Este repositorio contiene una implementación simplificada del desafío DevOps solicitado por Kiu: el despliegue y escalado de una aplicación en Kubernetes utilizando Terraform en Microsoft Azure. Eljo Azure porque es la nueve con la que estoy trabajando actualmente.
+Este repositorio contiene una implementación simplificada del desafío DevOps solicitado por Kiu: el despliegue y escalado de una aplicación en Kubernetes utilizando Terraform en Microsoft Azure. Eljo Azure porque es la nube con la que estoy trabajando actualmente.
 
 ##  Arquitectura
 
